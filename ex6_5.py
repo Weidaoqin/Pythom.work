@@ -9,3 +9,4 @@ for i in range(times):
     if len(items)!=len(lis):
         count+=1
 print("至少两人生日相同的概率:{:.2f}%".format(count/times*100))
+
